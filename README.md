@@ -2,6 +2,9 @@
 
 A simple web tool that helps you find the closest named colors from CSS and Material Design palettes for any color input.
 
+## Demo
+Try it out: [Live Demo](https://danielmroczek.github.io/color-matcher/)
+
 ## Features
 
 - Accepts any valid CSS color format (hex, RGB, color names)
