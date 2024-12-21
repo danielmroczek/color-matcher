@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Matcher</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./main.js" defer></script>
+</head>
+<body>
+  <div class="input-container">
+    <input type="text" id="colorInput" placeholder="Enter a color (e.g., #ff0000 or red)">
+  </div>
+  <div class="palettes-selector">
+    <label>
+      <input type="checkbox" name="palette" value="CSS" checked>
+      CSS Named Colors
+    </label>
+    <label>
+      <input type="checkbox" name="palette" value="Material" checked>
+      Material Design
+    </label>
+  </div>
+  <div id="results">
+    <div id="currentColor" class="color-match"></div>
+    <div id="matches"></div>
+  </div>
+</body>
+</html>
