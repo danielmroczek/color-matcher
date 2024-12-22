@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="5%" style="stop-color:#F44336"/>    <!-- Material Red 500 -->
+      <stop offset="20%" style="stop-color:#FF9800"/> <!-- Material Orange 500 -->
+      <stop offset="35%" style="stop-color:#FFEB3B"/> <!-- Material Yellow 500 -->
+      <stop offset="50%" style="stop-color:#4CAF50"/> <!-- Material Green 500 -->
+      <stop offset="65%" style="stop-color:#2196F3"/> <!-- Material Blue 500 -->
+      <stop offset="80%" style="stop-color:#3F51B5"/>   <!-- Material Indigo 500 -->
+      <stop offset="95%" style="stop-color:#9C27B0"/>  <!-- Material Purple 500 -->
+    </linearGradient>
+  </defs>
+  <circle cx="16" cy="16" r="14" fill="url(#gradient)"/>
+</svg>
